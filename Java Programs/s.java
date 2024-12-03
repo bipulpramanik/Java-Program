@@ -7,11 +7,11 @@ class s{
         int ch;
         Scanner sc = new Scanner(System.in);
         ch = sc.nextInt();
-        System.out.println("\tArea Menu\t");
-        System.out.println("\tArea of Rectangle\t");
-        System.out.println("\tPerimeter of rectangle\t");
+        System.out.println("\t Find the area ,perimeter and diagonal of Rectangle \t");
+        System.out.println("\t Area of Rectangle\t");
+        System.out.println("\t Perimeter of rectangle\t");
         System.out.println("\t Diagonal of Rectangle\t");
-        System.out.println("\tExit\t");
+        System.out.println("\t Exit\t");
 
         System.out.println("Enter the value of length and breadth=");
         l=sc.nextDouble();
