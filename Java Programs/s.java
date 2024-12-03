@@ -19,24 +19,24 @@ class s{
         switch(ch)
         {
             case 1: double area1 = l*b;
-            System.out.println("\tArea of Rectangle="+area1);
+            System.out.println("\t Area of Rectangle="+area1);
             break;
 
             case 2: 
             double area2 = 2*(l+b);
-            System.out.println("\tPerimeter of Rectangle="+area2);
+            System.out.println("\t Perimeter of Rectangle="+area2);
             break;
 
             case 3: double area3 = Math.sqrt((l*l)+(b*b));
-            System.out.println("\tDiagonal of Rectangle="+area3);
+            System.out.println("\t Diagonal of Rectangle="+area3);
             break;
 
             case 4: 
-            System.out.println("\tExit");
+            System.out.println("\t Exit");
             break;
 
             default:
-             System.out.println("\tInvalid Choice");       
+             System.out.println("\t Invalid Choice");       
         }
     }
 }
